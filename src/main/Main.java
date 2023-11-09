@@ -20,6 +20,7 @@ public class Main {
 			System.out.println("2. View obtainable artifacts");
 			System.out.println("3. Grind for artifact");
 			System.out.println("4. Exit");
+
 			int choose;
 			do {
 				System.out.print(">> ");
@@ -127,6 +128,7 @@ public class Main {
 			
 			int damage =  (int) (attack * multi * 100);
 			Artifacts g = new Golden(name, type, attack,damage, multi);
+	
 			arList.add(g);
 		}
 		System.out.println("Succesfully inserted!");

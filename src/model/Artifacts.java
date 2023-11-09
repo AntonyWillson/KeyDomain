@@ -39,5 +39,6 @@ public abstract class Artifacts {
 		this.damage = damage;
 	}
 	
-	
+
 }
+
